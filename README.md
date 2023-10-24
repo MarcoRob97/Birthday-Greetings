@@ -13,7 +13,7 @@ pandas is used to read employee data from an Excel file.
 win32com.client enables interaction with Microsoft Outlook.
 Loading Employee Data:
 
-We load employee data from an Excel file ('E:\Birthday Notification\Birthdays.xlsx') into a Pandas DataFrame (df). This data contains information such as the employee's name, email address, birth month, and birth day.
+We load employee data from an Excel file ('File_Location.xlsx') into a Pandas DataFrame (df). This data contains information such as the employee's name, email address, birth month, and birth day.
 Setting Up Outlook:
 
 We create a connection to the Outlook application (olApp) and the MAPI namespace (olNS). These are essential for sending automated emails through Outlook.
